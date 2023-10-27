@@ -20,3 +20,6 @@ Once the C2 server is configured, we can now build our client. To do this, we ca
   - Under the install settings, you can change the Drop Path (The location where you want the executable to live) and the name of the Executable file. If the user has the appropriate permissions, you can easily set persistence by clicking on the Registry Box and adding a Registry value name.
   - Under the Assembly settings, we can change the meta-data that will be appended to the end of the file once it is compiled. It is important to note that the default values will be added to the file once complied. To avoid detection from default Yara rules, you may want to change those values.
   - Finally, we can click on the box to Agree to the TOS and then click on the Compile button.
+
+# Interacting with an Agent
+Once the Agent has been successfully installed, it will communicate back to the C2 server and will populate in the Revenge-Rat C2 interface. The Agent will provide important information such as (the victim's IP address, hostname, operation system, and compromised user account). To interact with the agent, right-click on the agent to pull up the menu box and choose the action(s) you want to perform. 
