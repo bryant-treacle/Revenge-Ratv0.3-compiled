@@ -9,7 +9,7 @@ Unzip the password-protected zip file and open the **Revenge-RAT v3 - NYANxCAT**
   - Example: ``` InformationRevenge-RATTnlhbkNhdFJldmVuZ2U=Revenge-RATX0QwMjk0QUYwRevenge-RAT192.168.75.102 ```
   - It is important to make this value unique to help avoid detection from prebuilt rulesets. It is also important to note that the same Socket Key will be used to build the client.
 - Enter the port you would like the Revenge-Rat C2 server to communicate on.
-- Once configured, click the Start Listening Button. Note: You may be prompted to add Firewall rules to allow the Clients to connect. 
+- Once configured, click the Start Listening Button. **Note:** You may be prompted to add Firewall rules to allow the Clients to connect. 
 
 # Building an Agent
 Once the C2 server is configured, we can now build our client. To do this, we can use the Client Builder function built into the C2 Interface, or we can use the Builder.exe file located in the folder. Let's use the internal Client Builder. 
