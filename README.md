@@ -6,7 +6,8 @@ Password: infected
 # Configuring the Revenge-Rat C2 Server
 Unzip the password-protected zip file and open the Revenge-RAT v3 - NYANxCAT folder. 
 Execute the Revenge-RAT v0.3.exe File.
-- In the popup windows, you can create a Socket Key, which you can see from the example below, is the value that will be used to separate the different segments of the data being received from the clients. Example: InformationRevenge-RATTnlhbkNhdFJldmVuZ2U=Revenge-RATX0QwMjk0QUYwRevenge-RAT192.168.75.102
+- In the popup windows, you can create a Socket Key, which you can see from the example below, is the value that will be used to separate the different segments of the data being received from the clients.
+  - Example: ``` InformationRevenge-RATTnlhbkNhdFJldmVuZ2U=Revenge-RATX0QwMjk0QUYwRevenge-RAT192.168.75.102 ```
   - It is important to make this value unique to help avoid detection from prebuilt rulesets. It is also important to note that the same Socket Key will be used to build the client.
 - Enter the port you would like the Revenge-Rat C2 server to communicate on.
 - Once configured, click the Start Listening Button. Note: You may be prompted to add Firewall rules to allow the Clients to connect. 
